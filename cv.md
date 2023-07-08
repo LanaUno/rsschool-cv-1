@@ -22,14 +22,14 @@ I have strong analytical, math and communicative abilities, ability to learn qui
 ## Code example
 
 1. 7 kyu Get decimal part of the given number  
-   function getDecimal(n){
+   '''function getDecimal(n){
    let dec = Math.floor(n)
    if (n > 0){
    return n - Math.floor(n)
    }else{
    return Math.abs(n - (Math.floor(n)+1))
    }  
-   }
+    }'''
 
 2. 7 kyu Odd-Even String Sort
    function sortMyString(s) {
