@@ -21,29 +21,34 @@ I have strong analytical, math and communicative abilities, ability to learn qui
 
 ## Code example
 
-1. 7 kyu Get decimal part of the given number  
-   '''function getDecimal(n){
-   let dec = Math.floor(n)
-   if (n > 0){
-   return n - Math.floor(n)
-   }else{
-   return Math.abs(n - (Math.floor(n)+1))
-   }  
-    }'''
+1. 7 kyu Get decimal part of the given number
+
+   ```javascript
+   function getDecimal(n) {
+     let dec = Math.floor(n);
+     if (n > 0) {
+       return n - Math.floor(n);
+     } else {
+       return Math.abs(n - (Math.floor(n) + 1));
+     }
+   }
+   ```
 
 2. 7 kyu Odd-Even String Sort
+   ```javascript
    function sortMyString(s) {
-   let res = ''
-   let res1 = ''
-   for (let index = 0; index < s.length; index++) {
-   if (index % 2 === 0){
-   res += s[index]
-   } else {
-   res1 += s[index]
+     let res = "";
+     let res1 = "";
+     for (let index = 0; index < s.length; index++) {
+       if (index % 2 === 0) {
+         res += s[index];
+       } else {
+         res1 += s[index];
+       }
+     }
+     return res + " " + res1;
    }
-   }
-   return res+' '+res1
-   }
+   ```
 
 ## Education
 
