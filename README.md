@@ -1,3 +1,3 @@
-# rsschool-cv-1
+# rsschool-cv
 
-https://lanauno.github.io/rsschool-cv-1/cv
+https://lanauno.github.io/rsschool-cv/cv
