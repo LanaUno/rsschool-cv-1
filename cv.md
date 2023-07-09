@@ -40,7 +40,7 @@ I have strong analytical, math and communicative abilities, ability to learn qui
    function sortMyString(s) {
      let res = "";
      let res1 = "";
-     for (let index = 0; index < s.length; index++) {
+     for (let index = 0; index &lt; s.length; index++) {
        if (index % 2 === 0) {
          res += s[index];
        } else {
